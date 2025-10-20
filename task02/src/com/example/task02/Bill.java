@@ -15,6 +15,7 @@ public class Bill {
      * @param item товар
      * @param amount количество
      */
+
     public void add(Item item, int amount) {
         boolean found = false;
         for (BillItem billItem: items) {
